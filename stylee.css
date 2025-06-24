@@ -1,0 +1,520 @@
+body {
+    font-size: 16px ;
+    background-color: azure;
+    font-family: poppins,sans-serif;
+    
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: rgb(203, 215, 231);
+    text-align: center;
+    border-radius: 18px;
+  
+ 
+}
+.header {
+    padding: 15px;
+    text-align: center;
+    display: contents;
+    background-color: red;
+   
+}
+.judul {
+    font-size: 40px;
+    text-align: left;
+    background-size:;
+    background-color: rgb(235, 164, 114);
+    border-radius: 400px;
+    
+    
+    
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    
+
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    
+    
+}
+
+.header a:hover {
+    color: black;
+    background-color:white;
+    border-radius: 20px;
+    transition-delay: 0.2s;
+}
+.judul a:hover {
+    color: black;
+}
+
+.gambar{
+    background-image: url(foto\ saya.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position:0 380px ;
+    border-top: solid rgb(242, 255, 0) 3px;
+    border-bottom: solid rgb(242, 255, 0) 3px;
+
+}
+.content {
+    padding: 25px;
+
+
+}
+.content .judul2 {
+font-size: 25px;
+font-weight: bold;
+text-align: left;
+}
+
+.content .penulis {
+    font-size: 12px;
+    margin-top: -15px;text-align: left;
+
+}
+.content .penulis a {
+    text-decoration: none;
+    color: darkgreen;
+    
+}
+.penulis a:hover {
+
+background-color: white;
+border-radius: 10px;
+
+}
+.footer {
+    background-color:rgb(140, 158, 217);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+
+}
+/* css berita */
+.website {
+    background-image:url(berita.webp) ;
+}
+ 
+.gambarberita:hover {
+    transform: scale(1.05);
+    transition-delay: 0.3s;
+    
+}
+
+
+.selengkapnya {
+   background-color: chocolate;;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    color:#ebdede;
+   
+}
+
+.selengkapnya a:hover {
+    color: black;
+    background-color: chocolate;
+    border-radius: 5px;
+}
+
+.links {
+    text-decoration: none;
+    color:white;
+}
+
+
+
+.tulisan1 {
+    background-color: chocolate;
+    
+
+}
+
+
+.judulberita {
+    margin-bottom: -15px;
+    padding-left: 30px;
+}
+
+.gambar2 {
+    padding-right: 15px;
+}
+
+.lorem {
+    text-align: left;
+}
+
+/* css profil */
+
+.fotoprofil {
+
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.fotoprofil img {
+    width: 100%;
+      height: 50%;
+     
+     
+}
+
+
+.bodyprofil {
+    font-family: poppins, sans-serif;
+}
+
+/* css Galeri */
+.isigaleri {
+    background-color: lightslategrey;
+    padding: 1px;
+}
+
+.containerfoto {
+    display: grid;
+            background-color:rgb(182, 161, 161);
+            column-gap: 10px;
+            grid-template-columns: auto auto auto auto auto ;
+            padding: 10px;
+}
+
+.fotosaya1 {
+background-image: url(fotogw.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            
+           
+}
+
+.fotosaya1:hover {
+    transform: scale(1.05);
+}
+.fotosaya2 {
+background-image: url(fotogw2.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            height: 200px;
+            margin-top: 0px;
+            border-radius: 10px
+            }
+.fotosaya2:hover {
+    transform: scale(1.05);
+}            
+.fotosaya3 {
+background-image: url(fotogw3.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            color: white;
+}
+.fotosaya3:hover {
+    transform: scale(1.05);            
+}
+.fotosaya4 {
+background-image: url(fotogw4.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+}
+
+.fotosaya4:hover {
+    transform: scale(1.05);            
+}
+
+.fotosaya5 {
+background-image: url(fotogw5.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 20px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+}
+.fotosaya5:hover {
+    transform: scale(1.05);            
+}
+
+.containerfoto2 {
+display: grid;
+            background-color:rgb(182, 161, 161);
+            column-gap:10px;
+            grid-template-columns: auto auto auto auto auto ;
+            padding: 10px;
+            justify-content: center;
+            display: flex;
+            margin: 5px;    
+}
+
+.fototeman1 {
+background-image: url(teman1.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 45%;
+}
+.fototeman1:hover {
+    transform: scale(1.05);
+}
+
+.fototeman2 {
+background-image: url(teman2.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 45%;
+}
+.fototeman2:hover {
+    transform: scale(1.05);
+}
+
+.fototeman3 {
+background-image: url(teman3.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 45%;
+}
+.fototeman3:hover {
+    transform: scale(1.05);
+}
+
+.fototeman4 {
+background-image: url(teman4.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 45%;
+}
+.fototeman4:hover {
+    transform: scale(1.05);
+}
+
+.fototeman5 {
+background-image: url(teman5.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 45%;
+}
+.fototeman5:hover {
+    transform: scale(1.05);
+}
+
+.fotokeluarga1 {
+background-image: url(keluarga1.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+            margin-left:;
+}
+.fotokeluarga1:hover {
+    transform: scale(1.05);
+}
+
+.fotokeluarga2 {
+background-image: url(keluarga2.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokeluarga2:hover {
+    transform: scale(1.05);
+}
+
+
+.fotokeluarga3 {
+background-image: url(keluarga3.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokeluarga3:hover {
+    transform: scale(1.05);
+}
+
+
+.fotokeluarga4 {
+background-image: url(keluarga4.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokeluarga4:hover {
+    transform: scale(1.05);
+}
+
+
+.fotokeluarga5 {
+background-image: url(keluarga5.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokeluarga5:hover {
+    transform: scale(1.05);
+}
+
+
+.fotokandung1 {
+background-image: url(kandung1.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokandung1:hover {
+    transform: scale(1.05);
+}
+
+
+.fotokandung2 {
+background-image: url(kandung2.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokandung2:hover {
+    transform: scale(1.05);
+}
+
+
+
+.fotokandung3 {
+background-image: url(kandung3.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokandung3:hover {
+    transform: scale(1.05);
+}
+
+.fotokandung4 {
+background-image: url(kandung4.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokandung4:hover {
+    transform: scale(1.05);
+}
+
+.fotokandung5 {
+background-image: url(kandung5.jpg);
+            border: 1px solid black ;
+            background-size: cover;
+            padding: 30px;
+            text-align: center;
+            font-size: 30px;
+            border-radius: 10px;
+            height: 200px;
+            width: 10%;
+}
+.fotokandung5:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+/* css footer */
+.sfooter {
+    text-align: center;
+    background-color: bisque;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
